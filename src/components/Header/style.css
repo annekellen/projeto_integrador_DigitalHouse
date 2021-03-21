@@ -1,0 +1,29 @@
+.header {
+    background-color: #000;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 16px;
+    width: 100vw;
+  }
+  .header__title {
+    color: #fff;
+    margin: 8px auto 8px 0;
+  }
+  .header__nav {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin: 8px 0 8px auto;
+  }
+  .header__nav__item {
+    color: #fff;
+    font-weight: bolder;
+    margin: 0 0 0 24px;
+  }
+  .header__nav__item--disabled {
+    color: #d3d3d3;
+    cursor: none;
+    font-weight: normal;
+    margin: 0 0 0 24px;
+  }

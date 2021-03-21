@@ -1,0 +1,25 @@
+
+
+.banner-secundario {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 378px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+.banner-secundario__item{
+    background-image: url(../BannerSecundario/img/banner-secundario-mulher.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-secundario__item:nth-child(2){
+    background-image: url(../BannerSecundario/img/banner-secundario-homem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+

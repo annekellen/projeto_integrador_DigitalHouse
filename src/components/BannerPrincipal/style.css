@@ -1,0 +1,37 @@
+.banner-principal {
+    align-items: center;
+    background-image: url(../BannerPrincipal/img/banner-principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 650px;
+    padding: 16px;
+    width: 100vw;
+ 
+  }
+  .banner-principal__title {
+    color: #fff;
+    font-size: 32px;
+    margin: 20px auto;
+  }
+
+  .banner-principal__slogan{
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+
+  }
+
+  .banner-principal__btn {
+    border: 2px solid #fff;
+    border-radius: 32px;
+    color: #fff;
+    font-weight: bold;
+    margin: 16px auto;
+    padding: 8px 16px;
+  }
