@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #434343;
+}
+
+.container__slide{
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+.prateleirasPromocao {
+    background-color: #434343;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 16px auto;
+    padding: 16px;
+    width: 100%;
+  }
+
+  .glAxCh {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    border: none;
+    margin: 5px;
+    background-color:#D1D1D1;
+    font-size: 1.3em;
+    content: "";
+    height: 10px;
+    width: 10px;
+    box-shadow: 0 0 1px 3px rgb(100 100 101);
+    border-radius: 50%;
+    outline: none;
+}
+
+.rec.rec-arrow{
+    background-color: #434343;
+    box-shadow: 0 0 2px 0px #434343;
+    color: #D1D1D1;
+
+}
+
+.rec.rec-arrow:focus, .rec.rec-arrow:hover{
+    background-color: #434343;
+}
