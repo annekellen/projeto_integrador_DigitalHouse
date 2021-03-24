@@ -3,7 +3,7 @@ import "./style.css";
 import FormSignup from "./FormSignUp"
 import FormSuccess from "./FormSucces";
 
-const Form = () => {
+const FormAvalicao = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   function submitForm() {
@@ -22,4 +22,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormAvalicao;
