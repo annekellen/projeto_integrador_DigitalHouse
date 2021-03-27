@@ -1,16 +1,22 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home'
-import Produtos from '../pages/Produtos'
+import ProdutosHome from '../pages/ProdutosHome'
 import MeusPedidos from '../pages/MeusPedidos'
+import Sobre from '../pages/Sobre';
+import Produtos from '../pages/Produtos';
+import Politicas from '../pages/Politicas';
 
 
 const Routes = () => {
     return (
         <Router>
             <Switch>
+               <Route path="/produtos_home" component={ProdutosHome}/>  
                <Route path="/produtos" component={Produtos}/>  
+               <Route path="/politicas" component={Politicas}/>  
                <Route path="/meusPedidos" component={MeusPedidos}/>
+               <Route path="/sobre" component={Sobre}/>
                <Route path="/" component={Home}/> 
                     
             </Switch>
