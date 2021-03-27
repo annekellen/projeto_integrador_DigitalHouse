@@ -1,17 +1,10 @@
-.form-prateleira{
-    display: flex;
-    width: 100%;
+.container-titulos{
+    margin:40px 80px;
 }
-
-
-.form-left{
-    width:50%;
-    margin-left: 85px;
+.produtos-titulo{
+    font-size: 36px;
+    font-weight: 700;
 }
-
-.itens-relacionados{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
+.subtitulo-produtos{
+    font-weight: thin;
 }

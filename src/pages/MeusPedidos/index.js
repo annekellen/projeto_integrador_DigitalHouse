@@ -1,4 +1,3 @@
-import Main from '../../components/Main';
 import Prateleiras from '../../components/Prateleiras';
 import TabelaPedidos from '../../components/TabelaPedidos';
 import './style.css';

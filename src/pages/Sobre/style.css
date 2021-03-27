@@ -1,0 +1,41 @@
+.sobre-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.sobre-img{
+    width: 50%;
+    height: 100%;
+    background-image: url('./sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sobre-text{
+    width: 40%;
+    height: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sobre-titulo{
+    margin-bottom: 20px;
+}
+.sobre-text p{
+    
+    margin: 10px;
+}
+.sobre-text-p{
+    margin-top: 50px;
+}
+
+.itens-relacionados{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}

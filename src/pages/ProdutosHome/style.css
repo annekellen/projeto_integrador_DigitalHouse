@@ -1,0 +1,17 @@
+.form-prateleira{
+    display: flex;
+    width: 100%;
+}
+
+
+.form-left{
+    width:50%;
+    margin-left: 85px;
+}
+
+.itens-relacionados{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}

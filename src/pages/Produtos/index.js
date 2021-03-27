@@ -1,26 +1,18 @@
-import ProdutoDescricao from '../../components/ProdutoDescricao';
-import FormAvaliacao from '../../components/Formularios/Avaliacao';
-import Card from '../../components/Card'
+
 
 import './style.css';
-const Produtos = () => {
+import Prateleiras from '../../components/Prateleiras';
+const Produto = () => {
   return (
     <>
-      <ProdutoDescricao />
-      <div className="form-prateleira">
-        <div className="form-left">
-          <FormAvaliacao />
-        </div>
-        <div className="itens-relacionados">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
+      <div className="container-titulos" >
+        <h1 className="produtos-titulo">Produtos</h1>
+        <p className="subtitulo-produtos">Roupas Femininas</p>
       </div>
+      <Prateleiras />
+      <Prateleiras />
+      <Prateleiras />
     </>
   );
 };
-export default Produtos;
+export default Produto;
