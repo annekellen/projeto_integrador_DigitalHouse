@@ -1,3 +1,4 @@
+import Paragrafo from '../../components/Paragrafo';
 import Prateleiras from '../../components/Prateleiras';
 import TabelaPedidos from '../../components/TabelaPedidos';
 import './style.css';
@@ -15,7 +16,7 @@ const MeusPedidos = () => {
           </button>
         </div>
       </div>
-      <h1 className="prateleiras__title">Não perca...</h1>
+      <Paragrafo classe="titulo-center" texto="Não perca..." />
       <Prateleiras />
       <Prateleiras />
     </>
