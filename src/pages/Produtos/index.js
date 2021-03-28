@@ -1,13 +1,13 @@
 
-
+import Title from '../../components/Title'
 import './style.css';
 import Prateleiras from '../../components/Prateleiras';
 const Produto = () => {
   return (
     <>
       <div className="container-titulos" >
-        <h1 className="produtos-titulo">Produtos</h1>
-        <p className="subtitulo-produtos">Roupas Femininas</p>
+        <Title text1="Produtos"/>
+        <Title text2="Roupas femininas"/>
       </div>
       <Prateleiras />
       <Prateleiras />

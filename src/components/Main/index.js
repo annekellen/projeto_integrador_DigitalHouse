@@ -1,3 +1,4 @@
+import Title from '../Title'
 import BannerPrincipal from '../BannerPrincipal'
 import BannerSecundario from '../BannerSecundario'
 import Prateleiras from '../Prateleiras'
@@ -9,7 +10,7 @@ const Main = () => {
     <main className="main">
       <BannerPrincipal />
       <BannerSecundario />
-      <h1 className="prateleiras__title">Prateleiras</h1>
+      <Title text="Confira os nossos produtos"/>
       <Prateleiras />
       <PrateleirasPromocao /> 
       <PrateleirasMarcas />  

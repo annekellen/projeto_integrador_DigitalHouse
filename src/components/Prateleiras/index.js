@@ -1,4 +1,3 @@
-import BannerPrincipal from '../BannerPrincipal'
 import Card from '../Card'
 import './style.css'
 const Prateleiras = () => {

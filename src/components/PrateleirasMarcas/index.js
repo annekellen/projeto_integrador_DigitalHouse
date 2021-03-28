@@ -1,10 +1,12 @@
+import Title from '../Title'
 import Marcas from '../Marcas'
 import './style.css'
 const PrateleirasMarcas = () => {
   return (
     
+    <>
+    <Title text="Nossos parceiros"/>
     <section className="prateleiras">
-      <h1 className="prateleiras__title">Prateleiras</h1>
       <div className="prateleirasMarcas">
       <Marcas />
       <Marcas />
@@ -14,6 +16,7 @@ const PrateleirasMarcas = () => {
       <Marcas />
       </div>
     </section>
+    </>
   )
 }
 export default PrateleirasMarcas
