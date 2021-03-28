@@ -1,0 +1,49 @@
+.border-coluna {
+    border: solid 1px color #95989A;
+    margin: 50px;
+}
+table {
+    border-collapse: collapse;
+    height: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.tabela{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+  table, th, td {
+    border: 1px solid #95989A;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+  }
+
+  table, tr{
+      color: #95989A;
+      font-size: 14px;
+  }
+
+  .bottun-remover{
+      color: red
+  }
+
+  .tamanho{
+      width: 30%;
+  }
+  .tamanho1{
+    width: 10%;
+}
+.titulo-compras{
+    color: #95989A;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}

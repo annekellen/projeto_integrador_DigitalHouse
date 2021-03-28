@@ -1,0 +1,27 @@
+.container-pedidos{
+    width: 95%;
+    margin: 0 auto;
+
+}
+.titulo-pedidos{
+    color: #434343;
+}
+.continuar-comprando{
+    width:250px;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.btn-finalizar{
+    text-transform: uppercase;
+    background: linear-gradient(      90deg,      #d50000  0%,      #b71c1c 100%    );
+}
+.btn-finalizar:hover,
+.btn-finalizar:focus{
+    background: linear-gradient(      90deg,      #b71c1c  0%,#d50000 100%    );
+
+}
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 52px;
+}

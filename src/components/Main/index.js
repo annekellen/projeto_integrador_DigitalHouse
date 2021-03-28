@@ -9,6 +9,7 @@ const Main = () => {
     <main className="main">
       <BannerPrincipal />
       <BannerSecundario />
+      <h1 className="prateleiras__title">Prateleiras</h1>
       <Prateleiras />
       <PrateleirasPromocao /> 
       <PrateleirasMarcas />  

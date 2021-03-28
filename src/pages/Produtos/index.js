@@ -1,10 +1,18 @@
-import Main from '../../components/Main'
-import './style.css'
-const Produtos = () => {
+
+
+import './style.css';
+import Prateleiras from '../../components/Prateleiras';
+const Produto = () => {
   return (
     <>
-      <h1>Produtos</h1>
+      <div className="container-titulos" >
+        <h1 className="produtos-titulo">Produtos</h1>
+        <p className="subtitulo-produtos">Roupas Femininas</p>
+      </div>
+      <Prateleiras />
+      <Prateleiras />
+      <Prateleiras />
     </>
-  )
-}
-export default Produtos
+  );
+};
+export default Produto;

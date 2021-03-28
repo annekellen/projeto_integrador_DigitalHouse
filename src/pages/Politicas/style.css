@@ -1,0 +1,20 @@
+.container-politica{
+    width: 1000px;
+    margin: 0 auto;
+}
+.titulo-privacidade{
+    font-size: 48px; 
+    font-weight: 700; 
+    text-align:center;
+    margin: 20px 0;
+}
+.container-politica p{
+   font-size: 15px;
+   line-height: 22px;  
+}
+.subtitulo {
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+    font-size: 15px;
+}
