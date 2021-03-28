@@ -5,12 +5,13 @@ import Prateleiras from '../Prateleiras'
 import PrateleirasMarcas from '../PrateleirasMarcas'
 import PrateleirasPromocao from '../PrateleirasPromocao'
 import './style.css'
+import Paragrafo from '../Paragrafo'
 const Main = () => {
   return (
     <main className="main">
       <BannerPrincipal />
       <BannerSecundario />
-      <Title text="Confira os nossos produtos"/>
+      <Paragrafo classe="titulo-center" texto="Confira nossos produtos" />
       <Prateleiras />
       <PrateleirasPromocao /> 
       <PrateleirasMarcas />  

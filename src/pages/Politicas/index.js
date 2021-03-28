@@ -1,9 +1,10 @@
 import './style.css';
+import Paragrafo from '../../components/Paragrafo';
 const Politicas = () => {
   return (
     <>
+      <Paragrafo classe="titulo-center" texto="Política de privacidade" />
       <div className="container-politica">
-        <h1 className="titulo-privacidade">Política de Privacidade</h1>
         <p>
           OVERLOOK, inscrita no CNPJ sob o nº 99.999.99/0000-00, com sede na
           Avenida Francisco Matarazzo, nº 1350, bairro Barra Funda, em São
@@ -25,7 +26,7 @@ const Politicas = () => {
           Atendimento disponíveis em nosso site ou por meio de contato direto
           com o nosso Encarregado, conforme disponível nesta Política.{' '}
         </p>
-        <h5 className="subtitulo">DEFINIÇÕES</h5>
+        <Paragrafo classe="titulo-slogan" texto="definições" />
         <ul>
           <li>
             Anonimização: Utilização de meios técnicos razoáveis e disponíveis

@@ -1,0 +1,21 @@
+ .titulo-center {
+     color: #434343;    
+     font-size: 30px;
+     margin-top: 20px;
+     text-align: center;
+     font-weight: bold;
+ }
+ .titulo-left{
+    color: #434343;    
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+ }
+
+ .titulo-slogan{
+     font-size:16px ;
+     font-weight: thin;
+    
+ }

@@ -1,15 +1,16 @@
 
-import Title from '../../components/Title'
 import './style.css';
 import Prateleiras from '../../components/Prateleiras';
+import Paragrafo from '../../components/Paragrafo';
 const Produto = () => {
   return (
     <>
       <div className="container-titulos" >
-        <Title text1="Produtos"/>
-        <Title text2="Roupas femininas"/>
+      <Paragrafo classe="titulo-left"  texto="Produtos" />
+      <Paragrafo classe="titulo-slogan"  texto="Roupas Femininas" />
+       
       </div>
-      <Prateleiras />
+       <Prateleiras />
       <Prateleiras />
       <Prateleiras />
     </>

@@ -1,10 +1,11 @@
 import React from 'react';
+import Paragrafo from '../Paragrafo';
 import './style.css';
 
 const TabelaPedidos = () => {
   return (
     <div className="border-coluna">
-      <h1 className="titulo-compras">Minhas Compras</h1>
+      <Paragrafo classe="titulo-left" texto="Minhas compras" />
       <table className="tabela">
         <thead>
           <tr>
