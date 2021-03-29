@@ -1,4 +1,5 @@
 import Card from '../../components/Card';
+import Paragrafo from '../../components/Paragrafo';
 
 import './style.css';
 const Sobre = () => {
@@ -7,7 +8,7 @@ const Sobre = () => {
       <div className="sobre-container">
         <div className="sobre-img"></div>
         <div className="sobre-text">
-          <h2 className="descricao__titulo sobre-titulo">Sobre a Overlook</h2>
+          <Paragrafo classe="titulo-center" texto="Sobre a Overlook" />
 
           <p className="sobre-text-p">
             Lorem Ipsum is simply dummy text of the printing and typesetting

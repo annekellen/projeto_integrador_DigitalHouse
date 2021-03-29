@@ -1,0 +1,8 @@
+.botao-secundario{
+    border: 2px solid #fff;
+    border-radius: 32px;
+    color: #fff;
+    font-weight: bold;
+    margin: 16px auto;
+    padding: 8px 16px;
+}
