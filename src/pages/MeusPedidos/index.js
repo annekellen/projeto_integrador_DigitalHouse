@@ -1,3 +1,4 @@
+import BotaoDestaque from '../../components/Componentes-Gerais/Botoes/BotaoDestaque';
 import Paragrafo from '../../components/Paragrafo';
 import Prateleiras from '../../components/Prateleiras';
 import TabelaPedidos from '../../components/TabelaPedidos';
@@ -8,12 +9,9 @@ const MeusPedidos = () => {
       <div className="container-pedidos">
         <TabelaPedidos />
         <div className="btn-container">
-          <button className="form-input-btn continuar-comprando" type="submit">
-            Continuar Comprando
-          </button>
-          <button className="form-input-btn btn-finalizar" type="submit">
-            Finalizar
-          </button>
+          <BotaoDestaque classe="botao-continuar mg-lat-10" texto="Continuar Comprando" />
+
+          <BotaoDestaque classe="botao-finalizar" texto="Finalizar" />
         </div>
       </div>
       <Paragrafo classe="titulo-center" texto="Não perca..." />

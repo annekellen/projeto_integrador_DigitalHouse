@@ -1,4 +1,3 @@
-import Title from '../Title'
 import BannerPrincipal from '../BannerPrincipal'
 import BannerSecundario from '../BannerSecundario'
 import Prateleiras from '../Prateleiras'

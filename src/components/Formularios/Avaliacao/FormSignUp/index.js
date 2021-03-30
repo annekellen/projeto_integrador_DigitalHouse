@@ -2,6 +2,7 @@ import React from "react";
 import validate from "../ValidateInfo";
 import useForm from "../../CadastroLogin/UseForm";
 import "../style.css";
+import BotaoDestaque from "../../../Componentes-Gerais/Botoes/BotaoDestaque";
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -48,9 +49,8 @@ const FormSignup = ({ submitForm }) => {
             {errors.textarea && <p>{errors.textarea}</p>}
         </div>
         <div>
-        <button className="form-input-btn" type="submit">
-          Enviar
-        </button>
+        <BotaoDestaque classe="botao-continuar .border-radius-20" texto="Enviar" />
+        
         </div>
       </form>
     </div>

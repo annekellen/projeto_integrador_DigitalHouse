@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import CardPromocao from '../CardPromocao';
+import BotaoDestaque from '../Componentes-Gerais/Botoes/BotaoDestaque';
 import QuantidadeItens from '../QuantidadeItem';
 import TamanhoVariacoes from '../TamanhoVariacoes';
 
@@ -25,7 +26,9 @@ const ProdutoDescricao = () => {
 
         <TamanhoVariacoes />
         <QuantidadeItens />
-        <button className="add-card">Add to card</button>
+        <div className="descricao-btn-container">
+          <BotaoDestaque classe="botao-continuar" texto="Add to card" />
+        </div>
       </div>
       <div className="carroucel">
         <Carousel>

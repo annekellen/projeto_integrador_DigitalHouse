@@ -26,7 +26,7 @@ const Politicas = () => {
           Atendimento disponíveis em nosso site ou por meio de contato direto
           com o nosso Encarregado, conforme disponível nesta Política.{' '}
         </p>
-        <Paragrafo classe="titulo-slogan" texto="definições" />
+        <Paragrafo classe="titulo-sub" texto="DEFINIÇÕES" />
         <ul>
           <li>
             Anonimização: Utilização de meios técnicos razoáveis e disponíveis
@@ -57,7 +57,7 @@ const Politicas = () => {
           </li>
           <li>
             Encarregado (Data Protection Officer -DPO): Pessoa indicada pela
-            Overlook para atuar como canal de comunicação entre ela, o usuário e a
+            Dafiti para atuar como canal de comunicação entre ela, o usuário e a
             Autoridade Nacional de Proteção de Dados (ANPD).
           </li>
           <li>Plataformas: São o site e o aplicativo da Overlook.</li>
@@ -75,27 +75,29 @@ const Politicas = () => {
             extração.
           </li>
         </ul>
-        <h5 className="subtitulo">COLETA DE DADOS PESSOAIS</h5>
+        <Paragrafo classe="titulo-sub" texto="COLETA DE DADOS PESSOAIS" />
+
         <p>
           Os tipos de Dados Pessoais e a forma como os coletamos dependem da
           interação do Usuário em nosso site.
         </p>
         <p>
           O Usuário é responsável pela veracidade dos dados pessoais que
-          fornecer à Overlook. Qualquer prejuízo decorrente da inclusão de
+          fornecer à Dafiti. Qualquer prejuízo decorrente da inclusão de
           informações falsas ou desatualizadas, será de única e exclusiva
           responsabilidade do Usuário.
         </p>
-        <h5 className="subtitulo">COMPARTILHAMENTO DE DADOS PESSOAIS</h5>
+        <Paragrafo classe="titulo-sub" texto="COMPARTILHAMENTO DE DADOS PESSOAIS" />
+
         <p>
           
-          Overlook poderá compartilhar seus Dados Pessoais para oferecer os nossos
+          Dafiti poderá compartilhar seus Dados Pessoais para oferecer os nossos
           produtos e melhorar sua experiência conosco.
         </p>
         
         <p>
           
-          Seus Dados Pessoais podem ser compartilhados com empresas do Overlook
+          Seus Dados Pessoais podem ser compartilhados com empresas do Dafiti
           Group, com nossos fornecedores e parceiros, redes sociais e
           Autoridades Públicas.
         </p>
@@ -103,7 +105,7 @@ const Politicas = () => {
         <p>
           Estes fornecedores deverão cumprir com os princípios da
           proporcionalidade, necessidade e finalidade, bem como atender aos
-          padrões de segurança estabelecidos pela Overlook dentro do estado da
+          padrões de segurança estabelecidos pela Dafiti dentro do estado da
           técnica possível à época, no tocante à proteção de sigilo e
           confidencialidade, com uso de métodos de criptografia, conexão segura
           e demais melhores práticas disponíveis, inclusive anonimização, quando

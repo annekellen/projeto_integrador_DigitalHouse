@@ -1,3 +1,4 @@
+import BotaoPrincipal from '../Componentes-Gerais/Botoes/BotaoPrincipal'
 import './style.css'
 const Card = () => {
   return (
@@ -5,7 +6,8 @@ const Card = () => {
       <div className="card__foto"></div>
       <h3 className="card__title">Lorem ipsum is a pseudo-Latin</h3>
       <p className="card__preco">R$29,99</p>
-      <a href="/produtos_home" className="card__btn">Adicionar Card</a>
+      <BotaoPrincipal texto="Adicionar Card" />
+
 
     </article>
   )

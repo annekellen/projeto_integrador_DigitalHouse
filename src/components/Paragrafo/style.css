@@ -1,16 +1,15 @@
  .titulo-center {
      color: #434343;    
      font-size: 30px;
-     margin-top: 20px;
+     margin: 20px 0;
      text-align: center;
      font-weight: bold;
  }
  .titulo-left{
     color: #434343;    
     font-size: 32px;
-    margin-top: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 20px ;
 
  }
 
@@ -18,4 +17,10 @@
      font-size:16px ;
      font-weight: thin;
     
+ }
+ 
+ .titulo-sub{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
  }
