@@ -4,7 +4,6 @@
 
     
 }
-
 .descricao__titulo{
     font-size: 40px;
     font-weight: normal;
@@ -13,7 +12,6 @@
     font-size: 14px;
     margin-bottom: 50px;
 }
-
 .carroucel{
     width: 500px;
     display: flex;

@@ -1,7 +1,6 @@
 .botao-finalizar {
     width: auto;
     padding: 10px;
-    height: 40px;
     border-radius: 10px;
     background: linear-gradient(90deg, #4db6ac 0%, #009688 100%);
     outline: none;
@@ -28,7 +27,6 @@
 .botao-continuar {
     padding: 10px;
     width:auto;
-    height: 40px;
     border-radius: 10px;
     background: linear-gradient(90deg,            #4db6ac 0%,            #009688 100%);
     outline: none;
