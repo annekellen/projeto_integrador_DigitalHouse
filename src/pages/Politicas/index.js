@@ -57,8 +57,8 @@ const Politicas = () => {
           </li>
           <li>
             Encarregado (Data Protection Officer -DPO): Pessoa indicada pela
-            Dafiti para atuar como canal de comunicação entre ela, o usuário e a
-            Autoridade Nacional de Proteção de Dados (ANPD).
+            Overlook para atuar como canal de comunicação entre ela, o usuário e
+            a Autoridade Nacional de Proteção de Dados (ANPD).
           </li>
           <li>Plataformas: São o site e o aplicativo da Overlook.</li>
           <li>Política: É esta Política de Privacidade.</li>
@@ -83,42 +83,42 @@ const Politicas = () => {
         </p>
         <p>
           O Usuário é responsável pela veracidade dos dados pessoais que
-          fornecer à Dafiti. Qualquer prejuízo decorrente da inclusão de
+          fornecer à Overlook. Qualquer prejuízo decorrente da inclusão de
           informações falsas ou desatualizadas, será de única e exclusiva
           responsabilidade do Usuário.
         </p>
-        <Paragrafo classe="titulo-sub" texto="COMPARTILHAMENTO DE DADOS PESSOAIS" />
+        <Paragrafo
+          classe="titulo-sub"
+          texto="COMPARTILHAMENTO DE DADOS PESSOAIS"
+        />
 
         <p>
-          
-          Dafiti poderá compartilhar seus Dados Pessoais para oferecer os nossos
-          produtos e melhorar sua experiência conosco.
+          Overlook poderá compartilhar seus Dados Pessoais para oferecer os
+          nossos produtos e melhorar sua experiência conosco.
         </p>
-        
+
         <p>
-          
-          Seus Dados Pessoais podem ser compartilhados com empresas do Dafiti
+          Seus Dados Pessoais podem ser compartilhados com empresas do Overlook
           Group, com nossos fornecedores e parceiros, redes sociais e
           Autoridades Públicas.
         </p>
-        
+
         <p>
           Estes fornecedores deverão cumprir com os princípios da
           proporcionalidade, necessidade e finalidade, bem como atender aos
-          padrões de segurança estabelecidos pela Dafiti dentro do estado da
+          padrões de segurança estabelecidos pela Overlook dentro do estado da
           técnica possível à época, no tocante à proteção de sigilo e
           confidencialidade, com uso de métodos de criptografia, conexão segura
           e demais melhores práticas disponíveis, inclusive anonimização, quando
           aplicável.
         </p>
-        
+
         <p>
           Para saber mais sobre nossos fornecedores e parceiros, entre em
           contato conosco por meio dos nossos Canais de Atendimento disponíveis
           em nosso site ou por meio de contato direto com o nosso Encarregado,
           conforme disponível nesta Política.
         </p>
-        
       </div>
     </>
   );
