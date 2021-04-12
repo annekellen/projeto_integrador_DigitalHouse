@@ -22,6 +22,9 @@ const Header = () => {
         <a href="/admin" className="header__nav__item">
           ADMIN
         </a>
+        <a href="/cadastro" className="header__nav__item">
+          CADASTRO/LOGIN
+        </a>
       </nav>
     </section>
   );

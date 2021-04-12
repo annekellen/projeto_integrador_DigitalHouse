@@ -7,6 +7,7 @@ import Sobre from '../pages/Sobre';
 import Produtos from '../pages/Produtos';
 import Politicas from '../pages/Politicas';
 import Admin from '../pages/Admin';
+import CadastroLogin from '../pages/CadastroLogin'
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
         <Route path="/meusPedidos" component={MeusPedidos} />
         <Route path="/sobre" component={Sobre} />
         <Route path="/admin" component={Admin} />
+        <Route path="/cadastro" component={CadastroLogin} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
