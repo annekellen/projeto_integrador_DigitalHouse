@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import FormSignup from "./FormSignup";
 import FormSuccess from "./FormSucces";
-import img from './img/banner-principal.png'
+import img from './img/img-cadastro.jpg'
 const FormLogin = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 

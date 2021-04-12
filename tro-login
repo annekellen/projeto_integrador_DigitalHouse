@@ -1,0 +1,141 @@
+[33mcommit 0bf9b34781f4219328022260b1f7a11a0ded0429[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: annekellen <anneaccarini@gmail.com>
+Date:   Mon Apr 12 18:07:41 2021 -0300
+
+    feature-criando-pagina-cadastro-login
+
+[33mcommit bde5fb29495a1ec7daeb7cbc9f78ec82753653df[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature-adicionando-pagina-cadastro-login[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature-adicionando-pagina-cadastro-login[m[33m)[m
+Merge: 7154191 53df037
+Author: araujovaleria <38703557+araujovaleria@users.noreply.github.com>
+Date:   Sat Apr 10 15:25:50 2021 -0300
+
+    Merge pull request #7 from annekellen/feature-admin
+    
+    criação pagina admin
+
+[33mcommit 53df03768e0322d1a4fe1440961c057ea0003833[m[33m ([m[1;31morigin/feature-admin[m[33m)[m
+Author: araujovaleria <araujovaleria.arte@gmail.com>
+Date:   Sat Apr 10 15:20:44 2021 -0300
+
+    criação pagina admin
+
+[33mcommit 71541918fe6e38ca8c98893d97c9ac70fc609c66[m
+Merge: 31d98d7 afb84bf
+Author: araujovaleria <38703557+araujovaleria@users.noreply.github.com>
+Date:   Tue Mar 30 19:52:01 2021 -0300
+
+    Merge pull request #6 from annekellen/feature-criando-componentes-props
+    
+    adicionando novos componentes com props
+
+[33mcommit afb84bfc31d5984f16f6283acd73ca3446af3242[m[33m ([m[1;31morigin/feature-criando-componentes-props[m[33m)[m
+Author: eduardo rezende cruz <edu_rezende11@hotmail.com>
+Date:   Mon Mar 29 16:53:17 2021 -0300
+
+    adicionando novos componentes com props
+
+[33mcommit 31d98d7f704c7aa3f284fab50feb597e5b56bfd2[m
+Merge: 9657cb8 662c330
+Author: Eduardo Rezende Cruz <edu_rezende11@hotmail.com>
+Date:   Sun Mar 28 20:01:27 2021 -0300
+
+    Merge pull request #5 from annekellen/feature-criando-componentes-titulo
+    
+    adicionando titulo como props
+
+[33mcommit 662c3308a53935696347ba2f808d3a7b0eb8ed54[m[33m ([m[1;31morigin/feature-criando-componentes-titulo[m[33m)[m
+Author: eduardo rezende cruz <edu_rezende11@hotmail.com>
+Date:   Sun Mar 28 19:59:48 2021 -0300
+
+    adicionando titulo como props
+
+[33mcommit 9657cb8e7cf6688b92ff2f75d4811805811fea2d[m
+Author: annekellen <anneaccarini@gmail.com>
+Date:   Sun Mar 28 17:49:09 2021 -0300
+
+    feature-criacao-componente-titulo
+
+[33mcommit 2507ef41424420ae4c76a2d52cf253f46cc33b58[m
+Merge: 1ff5ea1 ea1e01e
+Author: annekellen <anneaccarini@gmail.com>
+Date:   Sun Mar 28 16:12:25 2021 -0300
+
+    Merge branch 'main' of https://github.com/annekellen/projeto_integrador_DigitalHouse into main
+
+[33mcommit ea1e01e212aa4083015553659ff4181d2ec458a7[m
+Merge: 37a8486 b70b8f3
+Author: Eduardo Rezende Cruz <edu_rezende11@hotmail.com>
+Date:   Sat Mar 27 19:31:14 2021 -0300
+
+    Merge pull request #4 from annekellen/feature-finalizando-paginas
+    
+    adicionando paginas sobre,politica e produtos
+
+[33mcommit b70b8f3da04da5ba4b748e579f790916d09d1ce7[m[33m ([m[1;31morigin/feature-finalizando-paginas[m[33m)[m
+Author: eduardo rezende cruz <edu_rezende11@hotmail.com>
+Date:   Sat Mar 27 19:26:16 2021 -0300
+
+    adicionando paginas sobre,politica e produtos
+
+[33mcommit 37a848684b3947c297ce02880e6616e81bb1a5d3[m
+Merge: dc67d02 e3c7be9
+Author: Eduardo Rezende Cruz <edu_rezende11@hotmail.com>
+Date:   Tue Mar 23 22:09:19 2021 -0300
+
+    Merge pull request #3 from annekellen/feature-finalizando-spa
+    
+     finalizando paginas de produtos e pedidos
+
+[33mcommit e3c7be9b5edf76ec947db51657f23bf9a2d6a81d[m[33m ([m[1;31morigin/feature-finalizando-spa[m[33m)[m
+Author: eduardo rezende cruz <edu_rezende11@hotmail.com>
+Date:   Tue Mar 23 22:07:16 2021 -0300
+
+     finalizando paginas de produtos e pedidos
+
+[33mcommit dc67d023c7749707ee2386bed8a2e8fb35b8c415[m
+Merge: 3ea7f86 c05ba5e
+Author: Eduardo Rezende Cruz <edu_rezende11@hotmail.com>
+Date:   Tue Mar 23 18:06:44 2021 -0300
+
+    Merge pull request #2 from annekellen/feature-criar-formularios-avaliacao-e-cadastro
+    
+    feature: criar formularios avaliacao e cadastro
+
+[33mcommit c05ba5e6a201401c3a1f44c1b2cc5aedbb0f74de[m[33m ([m[1;31morigin/feature-criar-formularios-avaliacao-e-cadastro[m[33m)[m
+Author: annekellen <anneaccarini@gmail.com>
+Date:   Mon Mar 22 23:08:17 2021 -0300
+
+    feature: criar formularios avaliacao e cadastro
+
+[33mcommit 1ff5ea123c615aadbf6985428b3cf1eacc0251d7[m[33m ([m[1;32mfeature-formularios-avaliacao-e-cadastro[m[33m)[m
+Author: annekellen <anneaccarini@gmail.com>
+Date:   Mon Mar 22 22:48:08 2021 -0300
+
+    criando formularios de avaliacao e cadastro
+
+[33mcommit 3ea7f86653b93725e19f112ca807554e78d412bd[m
+Merge: 8b0bd0b d1a9514
+Author: Anne Kellen Carnizello Accarini Mota <74333152+annekellen@users.noreply.github.com>
+Date:   Sun Mar 21 22:10:35 2021 -0300
+
+    Merge pull request #1 from annekellen/feature-finalizacao-home
+    
+    finalizar home e criacao de rotas
+
+[33mcommit d1a951475eb5da100d42c86d8baf3fb07111b6d1[m[33m ([m[1;31morigin/feature-finalizacao-home[m[33m)[m
+Author: araujovaleria <araujovaleria.arte@gmail.com>
+Date:   Sun Mar 21 21:35:07 2021 -0300
+
+    finalizar home e criacao de rotas
+
+[33mcommit 8b0bd0b080ee8647ad344fa88cea61eccd9b4763[m
+Author: araujovaleria <araujovaleria.arte@gmail.com>
+Date:   Sat Mar 20 21:16:45 2021 -0300
+
+    criar a estrutura do projeto em react
+
+[33mcommit 8ad1392eb1d62590040ca678cef40e1a8c46c050[m
+Author: araujovaleria <araujovaleria.arte@gmail.com>
+Date:   Sat Mar 20 17:15:11 2021 -0300
+
+    Initialize project using Create React App
