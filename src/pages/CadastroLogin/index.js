@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import FormSignup from "./FormSignup";
 import FormSuccess from "./FormSucces";
-
+import img from './img/banner-principal.png'
 const FormLogin = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -14,7 +14,7 @@ const FormLogin = () => {
       <div className="form-container">
         <span className="close-btn">×</span>
         <div className="form-content-left">
-          <img className="form-img" src="./img/banner-principal.png" alt="banner" />
+          <img className="form-img" src={img} alt={'img '} />
         </div>
         {!isSubmitted ? (
           <FormSignup submitForm={submitForm} />
