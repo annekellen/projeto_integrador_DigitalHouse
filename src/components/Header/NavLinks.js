@@ -8,38 +8,38 @@ const NavLinks = () => {
       <ul>
         <li>
           <a href="/" className="header__nav__item">
-            HOME
+            Home
           </a>
         </li>
         <li>
           <a href="/produtos" className="header__nav__item">
-            PRODUTOS
+            Produtos
           </a>
         </li>
         <li>
           <a href="/meuspedidos" className="header__nav__item">
-            PEDIDOS
+            Pedidos
           </a>
         </li>
         <li>
           <a href="/politicas" className="header__nav__item">
-            POLITICAS
+            Politicas
           </a>
         </li>
         <li>
           <a href="/sobre" className="header__nav__item">
-            SOBRE
+            Sobre
           </a>
         </li>
         <li>
           <a href="/admin" className="header__nav__item">
-            ADMIN
+            Admin
           </a>
         </li>
 
-        <li>
-          <a href="/cadastro" className="header__nav__item">
-            CADASTRO/LOGIN
+        <li >
+          <a   href="/cadastro" className="header__nav__item link-destaque">
+            Cadastro/Login
           </a>
         </li>
       </ul>

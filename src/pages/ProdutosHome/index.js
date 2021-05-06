@@ -9,7 +9,8 @@ const Produtos = () => {
       <ProdutoDescricao />
       <div className="form-prateleira">
         <div className="form-left">
-          <FormAvaliacao />
+           <FormAvaliacao />
+        
         </div>
         <div className="itens-relacionados">
           <Card />

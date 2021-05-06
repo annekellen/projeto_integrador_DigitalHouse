@@ -3,7 +3,7 @@ import Paragrafo from '../../components/Paragrafo';
 const Politicas = () => {
   return (
     <>
-      <Paragrafo classe="titulo-center" texto="Política de privacidade" />
+      <Paragrafo classe="titulo-center titulo-politica" texto="Política de privacidade" />
       <div className="container-politica">
         <p>
           OVERLOOK, inscrita no CNPJ sob o nº 99.999.99/0000-00, com sede na

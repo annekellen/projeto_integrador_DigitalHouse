@@ -4,15 +4,12 @@ import useForm from "../../CadastroLogin/UseForm";
 import "../style.css";
 import BotaoDestaque from "../../../Componentes-Gerais/Botoes/BotaoDestaque";
 
-const FormSignup = ({ submitForm }) => {
-  const { handleChange, handleSubmit, values, errors } = useForm(
-    submitForm,
-    validate
-  );
+const FormSignup = () => {
+  
 
   return (
     <div className="form-content-right">
-      <form onSubmit={handleSubmit} className="form" noValidate>
+      <form  className="form" >
         <h1>Deixe um comentário</h1>
         <h3> Seu comentário é muito importante para nós!</h3>
         <div className="form-inputs">
@@ -21,10 +18,7 @@ const FormSignup = ({ submitForm }) => {
             type="text"
             name="name"
             placeholder="Nome"
-            value={values.username}
-            onChange={handleChange}
           />
-          {errors.username && <p>{errors.username}</p>}
         </div>
         <div className="form-inputs">
           <input
@@ -32,10 +26,9 @@ const FormSignup = ({ submitForm }) => {
             type="email"
             name="email"
             placeholder="E-mail"
-            value={values.email}
-            onChange={handleChange}
+            
           />
-          {errors.email && <p>{errors.email}</p>}
+        
         </div>
         <div className="form-group">
             <textarea
@@ -43,10 +36,9 @@ const FormSignup = ({ submitForm }) => {
             id="exampleFormControlTextarea1"
             rows="5"
             placeholder="Mensagem"
-            value={values.textarea}
-            onChange={handleChange}
+           
             />
-            {errors.textarea && <p>{errors.textarea}</p>}
+          
         </div>
         <div>
         <BotaoDestaque classe="botao-continuar .border-radius-20" texto="Enviar" />

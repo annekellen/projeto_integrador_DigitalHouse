@@ -14,8 +14,9 @@ const breakPoints = [
 const PrateleirasPromocao = () => {
   return (
     <>
-      <div className="container">
-        <div className="container__slide">
+      
+        <div className="container-promocao">
+
           <Carousel breakPoints={breakPoints}>
             <CardPromocao />
             <CardPromocao />
@@ -25,7 +26,7 @@ const PrateleirasPromocao = () => {
             <CardPromocao />
           </Carousel>
         </div>
-      </div>
+     
     </>
   );
 };

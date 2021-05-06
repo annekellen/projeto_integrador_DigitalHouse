@@ -5,7 +5,7 @@ import Paragrafo from '../../components/Paragrafo';
 const Admin = () => {
   return (
     <>
-      <div className="container-titulos">
+      <div className="titulo-admin">
         <Paragrafo classe="titulo-left" texto="Produtos" />
         <Paragrafo classe="titulo-slogan" texto="Admin" />
       </div>

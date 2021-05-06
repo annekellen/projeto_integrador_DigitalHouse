@@ -5,26 +5,62 @@ import './style.css';
 const TabelaPedidos = () => {
   return (
     <div className="border-coluna">
-      <Paragrafo classe="titulo-left" texto="Minhas compras" />
-      <table className="tabela">
+      <Paragrafo classe="titulo-left titulo-compras" texto="Minhas compras" />
+      
+      <table className="table table-bordered tabela table-striped">
         <thead>
           <tr>
-            <th className="tamanho1">ITEM</th>
-            <th className="tamanho">TAMANHO</th>
-            <th className="tamanho">QT.</th>
-            <th className="tamanho">PREÇO</th>
-            <th className="tamanho1"> PEDIDO ADICIONAL</th>
-            <th className="tamanho"></th>
+           
+            <th scope="col" className="tamanho2">Item</th>
+            <th scope="col" className="tamanho1">Tamanho</th>
+            <th scope="col" className="tamanho3">Preco</th>
+            <th scope="col" className="tamanho1">Quantidade</th>            
+            <th scope="col" className="tamanho1">Excluir</th>
           </tr>
         </thead>
         <tbody>
+          
+         
+         
+        
           <tr>
+            
             <td>Camiseta shirt</td>
             <td>XL</td>
+            <td>R$49,90</td>
             <td>1</td>
-            <td>49,90</td>
-            <td>-</td>
-            <td className="bottun-remover">X Remover</td>
+            
+            <td>
+              <button type="button" class="btn btn-danger">
+                EXCLUIR
+              </button>
+            </td>
+          </tr>
+          <tr>
+            
+            <td>Camiseta shirt</td>
+            <td>XL</td>
+            <td>R$49,90</td>
+            <td>1</td>
+            
+            <td>
+              <button type="button" class="btn btn-danger">
+                EXCLUIR
+              </button>
+            </td>
+          </tr>
+          <tr>
+            
+            <td>Camiseta shirt</td>
+            <td>XL</td>
+            <td>R$49,90</td>
+            <td>1</td>
+            
+            <td>
+              <button type="button" class="btn btn-danger">
+                EXCLUIR
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>

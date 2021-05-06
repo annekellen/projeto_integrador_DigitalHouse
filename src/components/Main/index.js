@@ -1,20 +1,22 @@
-import BannerPrincipal from '../BannerPrincipal'
-import BannerSecundario from '../BannerSecundario'
-import Prateleiras from '../Prateleiras'
-import PrateleirasMarcas from '../PrateleirasMarcas'
-import PrateleirasPromocao from '../PrateleirasPromocao'
-import './style.css'
-import Paragrafo from '../Paragrafo'
+import BannerPrincipal from '../BannerPrincipal';
+import BannerSecundario from '../BannerSecundario';
+import Prateleiras from '../Prateleiras';
+import PrateleirasMarcas from '../PrateleirasMarcas';
+import PrateleirasPromocao from '../PrateleirasPromocao';
+import './style.css';
+import Paragrafo from '../Paragrafo';
 const Main = () => {
   return (
     <main className="main">
       <BannerPrincipal />
       <BannerSecundario />
-      <Paragrafo classe="titulo-center" texto="Confira nossos produtos" />
-      <Prateleiras />
-      <PrateleirasPromocao /> 
-      <PrateleirasMarcas />  
+      <div className="prateleira-wrapper">
+        <Paragrafo classe="titulo-center" texto="Confira nossos produtos" />
+        <Prateleiras />
+      </div>
+      <PrateleirasPromocao />
+      <PrateleirasMarcas />
     </main>
-  )
-}
-export default Main
+  );
+};
+export default Main;
