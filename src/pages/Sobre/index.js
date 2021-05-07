@@ -25,6 +25,9 @@ const Sobre = () => {
           </p>
         </div>
       </div>
+      <div className="container-chamada-sobre">
+        <Paragrafo classe="titulo-center" texto="Continue Comprando" />
+      </div>
 
       <div className="itens-relacionados">
         <Card />

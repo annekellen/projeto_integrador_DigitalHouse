@@ -21,8 +21,14 @@
   margin-left: 45px;
 }
 
+.estilo-botao{
+  text-align: center;
+  margin: 0 auto;
+}
 
 
-
+.estilo-botao button{
+  margin: 10px;
+}
 
 

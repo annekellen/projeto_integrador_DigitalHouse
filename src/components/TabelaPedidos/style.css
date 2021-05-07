@@ -1,11 +1,23 @@
+td{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+.btn-trash{
+    width: 20px;
+    height: 20px;
+}
 .tamanho1{
     width: 10%;
+   
 }
 .tamanho2{
     width: 50%;
 }
 .tamanho3{
     width: 20%;
+    
 }
 .titulo-left.titulo-compras{
     margin-left: 63px;
