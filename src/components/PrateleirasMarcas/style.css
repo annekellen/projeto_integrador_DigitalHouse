@@ -1,12 +1,15 @@
 .prateleirasMarcas {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     margin: 16px auto;
     width: 82%;
   }
   .marcas-wrapper{
       padding: 10vh 0;
 
+  }
+  .prateleira-item{
+      margin: 5px;
   }
   

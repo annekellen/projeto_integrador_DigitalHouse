@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './style.css';
 import FormSignup from './FormSignUp';
-import FormSuccess from './FormSucces';
 
 const FormAvalicao = () => {
   return (

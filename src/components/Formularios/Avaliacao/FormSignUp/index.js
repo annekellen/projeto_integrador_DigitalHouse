@@ -1,6 +1,4 @@
 import React from "react";
-import validate from "../ValidateInfo";
-import useForm from "../../CadastroLogin/UseForm";
 import "../style.css";
 import BotaoDestaque from "../../../Componentes-Gerais/Botoes/BotaoDestaque";
 

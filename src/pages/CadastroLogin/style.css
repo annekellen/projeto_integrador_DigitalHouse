@@ -8,6 +8,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  @media(max-width:600px){
+    .form-container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
   
   .close-btn {
     position: absolute;
@@ -28,7 +34,12 @@
     border-radius: 10px 0 0 10px;
     position: relative;
   }
-  
+  @media(max-width:600px) {
+    .form-content-left {
+      display: none;
+    }
+    
+  }
   .form-img {
     width: 80%;
     height: 80%;

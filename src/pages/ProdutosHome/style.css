@@ -5,6 +5,7 @@
 .form-left{
     width:50%;
     margin-left: 85px;
+    margin-top: 50px;
 }
 
 .itens-relacionados{
@@ -12,4 +13,26 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
+}
+.form__avaliacao{
+    margin: 40px 0;
+}
+
+.input__avaliacao{
+    border: solid 1px #95989A;
+    width: 70%;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.input__avaliacao.input{
+    height: 2em;
+}
+
+.botao-continuar.botao-avaliacao{
+    width: 100px;
 }
