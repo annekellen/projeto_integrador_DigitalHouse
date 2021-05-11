@@ -8,12 +8,12 @@ const PrateleirasMarcas = () => {
         <Paragrafo classe="titulo-center" texto="Nossos parceiros" />
         <section className="prateleiras">
           <div className="prateleirasMarcas">
-            <Marcas />
-            <Marcas />
-            <Marcas />
-            <Marcas />
-            <Marcas />
-            <Marcas />
+            <Marcas className="prateleira-item" />
+            <Marcas  className="prateleira-item"/>
+            <Marcas className="prateleira-item" />
+            <Marcas className="prateleira-item" />
+            <Marcas className="prateleira-item" />
+            <Marcas className="prateleira-item" />
           </div>
         </section>
       </div>

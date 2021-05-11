@@ -2,7 +2,7 @@ import './style.css';
 import Paragrafo from '../../components/Paragrafo';
 const Politicas = () => {
   return (
-    <>
+    <div className="politica-wrapper">
       <Paragrafo classe="titulo-center titulo-politica" texto="Política de privacidade" />
       <div className="container-politica">
         <p>
@@ -120,7 +120,7 @@ const Politicas = () => {
           conforme disponível nesta Política.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 export default Politicas;
