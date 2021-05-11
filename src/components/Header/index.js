@@ -4,11 +4,11 @@ import MobileNavegation from './MobileNavegation';
 import Navegation from './Navegation';
 
 const Header = () => {
-  const [open, setOpen] = React.useState(false);
+/*   const [open, setOpen] = React.useState(false);
 
   const navToggle = () => {
     setOpen(!open);
-  };
+  }; */
   return (
     <header className="header">
       <div className="header-wrapper">
