@@ -1,4 +1,3 @@
-import Card from '../../components/Card';
 import Paragrafo from '../../components/Paragrafo';
 import Prateleiras from '../../components/Prateleiras';
 

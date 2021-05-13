@@ -1,7 +1,6 @@
 import ProdutoDescricao from '../../components/ProdutoDescricao';
 import Prateleiras from '../../components/Prateleiras';
 
-import Card from '../../components/Card';
 
 import './style.css';
 import BotaoDestaque from '../../components/Componentes-Gerais/Botoes/BotaoDestaque';
