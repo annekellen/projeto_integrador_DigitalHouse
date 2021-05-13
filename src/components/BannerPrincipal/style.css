@@ -35,3 +35,15 @@
     margin: 16px auto;
     padding: 8px 16px;
   }
+
+  @media  (max-width:500px) {
+    .banner-principal__title{
+      font-size: 25px;
+      text-align: center;
+    }
+    .banner-principal__slogan{
+      width: 70%;
+      font-size: 18px;
+
+    }
+  }

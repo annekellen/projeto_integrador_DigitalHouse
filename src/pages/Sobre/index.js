@@ -1,5 +1,6 @@
 import Card from '../../components/Card';
 import Paragrafo from '../../components/Paragrafo';
+import Prateleiras from '../../components/Prateleiras';
 
 import './style.css';
 const Sobre = () => {
@@ -30,10 +31,7 @@ const Sobre = () => {
       </div>
 
       <div className="itens-relacionados">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Prateleiras />
       </div>
     </>
   );

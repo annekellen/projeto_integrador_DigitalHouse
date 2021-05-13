@@ -6,8 +6,8 @@ const BannerSecundario = () => {
       <div className="banner-secundario__item">
         <div className="container-item">
           <h1 className="banner-secundario__title">A PARTIR DE R$50</h1>
-          <div className="btn_bannerSecundario">
-            <BotaoSecundario texto="COMPRE AGORA" />
+          <div className="btn_bannerSecundario" >
+            <BotaoSecundario classe="btn-mbl" texto="COMPRE AGORA" />
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@ const BannerSecundario = () => {
         <div className="container-item">
           <h1 className="banner-secundario__title">A PARTIR DE R$50</h1>
           <div className="btn_bannerSecundario">
-            <BotaoSecundario texto="COMPRE AGORA" />
+            <BotaoSecundario classe="btn-mbl" texto="COMPRE AGORA" />
           </div>
         </div>
       </div>
