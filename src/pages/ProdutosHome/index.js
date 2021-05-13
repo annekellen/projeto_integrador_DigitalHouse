@@ -1,4 +1,5 @@
 import ProdutoDescricao from '../../components/ProdutoDescricao';
+import Prateleiras from '../../components/Prateleiras';
 
 import Card from '../../components/Card';
 
@@ -40,12 +41,13 @@ const Produtos = () => {
           </form>
         </div>
         <div className="itens-relacionados">
+          {/*   <Card />
           <Card />
           <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
+          <Card /> */}
+          <Prateleiras />
         </div>
       </div>
     </>

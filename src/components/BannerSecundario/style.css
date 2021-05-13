@@ -1,56 +1,56 @@
 .banner-secundario__title {
-    color: #fff;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .banner-secundario__title1{
-    color: #fff;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-  }
-.btn_bannerSecundario{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .btn_bannerSecundario1{
-    margin-top: 10px;
-  }
-.container-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    float: right;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_bannerSecundario {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  float: right;
 }
 .banner-secundario {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    height: 378px;
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 378px;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
 }
-.banner-secundario__item{
-    background-image: url(../BannerSecundario/img/banner-secundario-mulher.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-}
-
-.banner-secundario__item:nth-child(2){
-    background-image: url(../BannerSecundario/img/banner-secundario-homem.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+.banner-secundario__item {
+  background-image: url(../BannerSecundario/img/banner-secundario-mulher.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  display: flex;
 }
 
+.banner-secundario__item:nth-child(2) {
+  background-image: url(../BannerSecundario/img/banner-secundario-homem.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-secundario__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .botao-secundario.btn-mbl {
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+}
