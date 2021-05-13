@@ -13,10 +13,30 @@ const Produtos = () => {
           {/* <FormAvaliacao /> */}
           <h3>Seu comentário é muito importante para nós!</h3>
           <form className="form__avaliacao">
-            <input type="text" className="input__avaliacao input" required placeholder="Nome" />
-            <input type="email" className="input__avaliacao input" required placeholder="Email" />
-            <textarea name="" placeholder="Mensagem" className="input__avaliacao" id="" cols="30" rows="10"></textarea>
-            <BotaoDestaque classe="botao-continuar botao-avaliacao" texto="Enviar" />
+            <input
+              type="text"
+              className="input__avaliacao input"
+              required
+              placeholder="Nome"
+            />
+            <input
+              type="email"
+              className="input__avaliacao input"
+              required
+              placeholder="Email"
+            />
+            <textarea
+              name=""
+              placeholder="Mensagem"
+              className="input__avaliacao"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <BotaoDestaque
+              classe="botao-continuar botao-avaliacao"
+              texto="Enviar"
+            />
           </form>
         </div>
         <div className="itens-relacionados">
