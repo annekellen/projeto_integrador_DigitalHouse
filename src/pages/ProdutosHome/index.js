@@ -1,7 +1,6 @@
 import ProdutoDescricao from '../../components/ProdutoDescricao';
 import Prateleiras from '../../components/Prateleiras';
 
-import Card from '../../components/Card';
 
 import './style.css';
 import BotaoDestaque from '../../components/Componentes-Gerais/Botoes/BotaoDestaque';
@@ -11,7 +10,7 @@ const Produtos = () => {
       <ProdutoDescricao />
       <div className="form-prateleira">
         <div className="form-left">
-          {/* <FormAvaliacao /> */}
+       
           <h3>Seu comentário é muito importante para nós!</h3>
           <form className="form__avaliacao">
             <input
