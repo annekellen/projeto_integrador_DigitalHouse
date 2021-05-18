@@ -8,6 +8,7 @@ import Produtos from '../pages/Produtos';
 import Politicas from '../pages/Politicas';
 import Admin from '../pages/Admin';
 import CadastroLogin from '../pages/CadastroLogin'
+import Default from '../pages/Default'
 
 const Routes = () => {
   return (
@@ -20,7 +21,8 @@ const Routes = () => {
         <Route path="/sobre" component={Sobre} />
         <Route path="/admin" component={Admin} />
         <Route path="/cadastro" component={CadastroLogin} />
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route component={Default}/>
       </Switch>
     </Router>
   );
