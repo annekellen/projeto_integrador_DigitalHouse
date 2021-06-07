@@ -9,18 +9,20 @@ import Politicas from '../pages/Politicas';
 import Admin from '../pages/Admin';
 import CadastroLogin from '../pages/CadastroLogin'
 import Default from '../pages/Default'
+import Login from '../pages/Login';
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/produtos_home" component={ProdutosHome} />
         <Route path="/produtos" component={Produtos} />
         <Route path="/politicas" component={Politicas} />
         <Route path="/meusPedidos" component={MeusPedidos} />
         <Route path="/sobre" component={Sobre} />
         <Route path="/admin" component={Admin} />
         <Route path="/cadastro" component={CadastroLogin} />
+        <Route path="/login" component={Login} />
+        <Route  exact path="/:id" component={ProdutosHome} />
         <Route exact path="/" component={Home} />
         <Route component={Default}/>
       </Switch>

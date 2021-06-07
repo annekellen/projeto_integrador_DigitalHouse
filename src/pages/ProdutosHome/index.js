@@ -1,16 +1,27 @@
 import ProdutoDescricao from '../../components/ProdutoDescricao';
 import Prateleiras from '../../components/Prateleiras';
 
+import { ProductConsumer } from '../../components/Context/index';
 
 import './style.css';
 import BotaoDestaque from '../../components/Componentes-Gerais/Botoes/BotaoDestaque';
-const Produtos = () => {
+const Produtos = ({ match }) => {
+  const idProduct = Number(match.params.id);
+
   return (
     <>
-      <ProdutoDescricao />
+      <ProductConsumer>
+        {(value) => {
+          return value.StoreProducts.filter(
+            (product) => idProduct === product.id,
+          ).map((product) => (
+            <ProdutoDescricao key={product.id} product={product} />
+          ));
+        }}
+      </ProductConsumer>
+
       <div className="form-prateleira">
         <div className="form-left">
-       
           <h3>Seu comentário é muito importante para nós!</h3>
           <form className="form__avaliacao">
             <input

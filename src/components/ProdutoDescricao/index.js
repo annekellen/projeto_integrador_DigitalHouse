@@ -1,39 +1,38 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import CardPromocao from '../CardPromocao';
+
 import BotaoDestaque from '../Componentes-Gerais/Botoes/BotaoDestaque';
-import QuantidadeItens from '../QuantidadeItem';
+
 import TamanhoVariacoes from '../TamanhoVariacoes';
 
 import './style.css';
 
-const ProdutoDescricao = () => {
+const ProdutoDescricao = ({product}) => {
+  console.log(product)
+  const {name , descricao , photo, price} = product
   return (
     <section className="section">
       <div className="descricao-container">
         <div>
-          <h2 className="descricao__titulo">Camisa Shirt</h2>
-          <p className="descricao__categoria">Categoria:Mulher, Shirt</p>
+          <h2 className="descricao__titulo">{name}</h2>
+          <p className="descricao__categoria"></p>
 
           <p>
-            CAMISETA CHIFFON ESSENTIAL confeccionada em chiffon transparente,
-            levemente texturizado. Possui shape solto ao corpo, manga curta e
-            comprimento alongado. Esta peça faz parte da nossa linha de básicos.
-            São itens essenciais e versáteis que podem ser coordenados entre si
-            e combinam com todo o seu guarda-roupa.
+           {descricao}
           </p>
         </div>
 
         <TamanhoVariacoes />
-        <QuantidadeItens />
+        <div>
+          <p>{`${price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`}</p>
+        </div>
         <div className="descricao-btn-container">
           <BotaoDestaque classe="botao-continuar" texto="Add to card" />
         </div>
       </div>
       <div className="carroucel">
         <Carousel>
-          <CardPromocao />
-          <CardPromocao />
+         <img src={photo} alt="" />
         </Carousel>
       </div>
     </section>

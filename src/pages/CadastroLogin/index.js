@@ -12,9 +12,9 @@ const FormLogin = () => {
   return (
     <>
       <div className="form-container">
-        <span className="close-btn">×</span>
+        
         <div className="form-content-left">
-          <img className="form-img" src={img} alt={'img '} />
+          <img className="form-img" src={img} alt='img '/>
         </div>
         {!isSubmitted ? (
           <FormSignup submitForm={submitForm} />

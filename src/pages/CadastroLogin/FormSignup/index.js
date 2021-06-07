@@ -2,6 +2,8 @@ import React from 'react';
 import validate from '../ValidateInfo';
 import useForm from '../UseForm';
 import '../style.css';
+import {Link } from 'react-router-dom';
+
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -67,7 +69,7 @@ const FormSignup = ({ submitForm }) => {
           Cadastrar
         </button>
         <span className='form-input-login'>
-          Já possui cadastro? Faça o Login aqui!
+          Já possui cadastro? Faça o Login <Link to='/login'>aqui</Link>
         </span>
       </form>
     </div>
