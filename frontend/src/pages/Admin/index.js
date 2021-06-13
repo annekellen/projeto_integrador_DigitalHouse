@@ -81,56 +81,87 @@ const Admin = () => {
         <Paragrafo classe="titulo-slogan" texto="Admin" />
       </div>
       <div className="btn-container">
-        <form method="post" onSubmit={handleSubmit}>
-          <label>
-            Produto
-            <input
-              type="text"
-              onChange={(e) => setNewProduct(e.target.value)}
-              name="name"
-            />
-          </label>
-          <label>
-            Categoria
-            <select>
-              <option value="tshirt">t-shirt</option>
-            </select>
-          </label>
-          <label>
-            Preço
-            <input
-              type="number"
-              onChange={(e) => setNewPrice(e.target.value)}
-              name="price"
-            />
-          </label>
-          <label>
-            Quantidade
-            <input
-              type="number"
-              onChange={(e) => setNewQuantity(e.target.value)}
-              name="quantity"
-            />
-          </label>
-          <label>
-            imagem
-            <input
-              type="text"
-              onChange={(e) => setNewImg(e.target.value)}
-              name="image"
-            />
-          </label>
-          <label>
-            descricao
-            <input
-              type="textarea"
-              onChange={(e) => setNewDesc(e.target.value)}
-              name="desc"
-            />
-          </label>
-          <button type="submit" class="btn btn-success">
-            + Adicionar Novo Produto
-          </button>
+        <form method="post" onSubmit={handleSubmit} class="form-group">
+          <div class="row">
+            <div class="col-md-2">
+              {' '}
+              <label>
+                Produto
+                <input
+                  class="form-control"
+                  type="text"
+                  onChange={(e) => setNewProduct(e.target.value)}
+                  name="name"
+                />
+              </label>
+            </div>
+            <div class="col-md-2">
+              <label>
+                Categoria
+                <select class="form-control">
+                  <option value="tshirt">Camiseta Estampada</option>
+                </select>
+              </label>
+            </div>
+            <div class="col-md-2">
+              {' '}
+              <label>
+                Preço
+                <input
+                  class="form-control"
+                  type="number"
+                  onChange={(e) => setNewPrice(e.target.value)}
+                  name="price"
+                />
+              </label>
+            </div>
+            <div class="col-md-2">
+              {' '}
+              <label>
+                Quantidade
+                <input
+                  class="form-control"
+                  type="number"
+                  onChange={(e) => setNewQuantity(e.target.value)}
+                  name="quantity"
+                />
+              </label>
+            </div>
+            <div class="col-md-4">
+              {' '}
+              <label>
+                imagem
+                <input
+                  class="form-control"
+                  type="text"
+                  onChange={(e) => setNewImg(e.target.value)}
+                  name="image"
+                />
+              </label>
+            </div>
+            <div class="row"></div>
+            <div class="col-md-12">
+              {' '}
+              <label>
+                descricao
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  type="textarea"
+                  onChange={(e) => setNewDesc(e.target.value)}
+                  name="desc"
+                ></textarea>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <button type="submit" class="btn btn-success margin-right">
+                + Adicionar Novo Produto
+              </button>
+            </div>
+          </div>
         </form>
       </div>
       <div>
@@ -160,7 +191,7 @@ const Admin = () => {
                     className="btn btn-primary w-100"
                     data-toggle="modal"
                     data-target="#exampleModal"
-                    onClick={()=>handleEdit(product._id)}
+                    onClick={() => handleEdit(product._id)}
                   >
                     <AiFillEdit />
                   </button>
@@ -292,15 +323,13 @@ const Admin = () => {
               <button type="button" class="btn btn-dark" data-dismiss="modal">
                 Sair
               </button>
-              <button type="button"  class="btn btn-success">
+              <button type="button" class="btn btn-success">
                 Salvar
               </button>
             </div>
           </div>
         </div>
       </div>
-
-      
     </>
   );
 };
