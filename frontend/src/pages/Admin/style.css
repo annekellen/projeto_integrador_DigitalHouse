@@ -30,5 +30,11 @@
 .estilo-botao button{
   margin: 10px;
 }
+.margin-right{
+  float: right;
+  margin-top:10px;
+}
 
-
+label{
+  width:100%;
+}
