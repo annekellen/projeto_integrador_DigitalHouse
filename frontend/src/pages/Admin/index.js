@@ -12,6 +12,12 @@ const Admin = () => {
   const [newQuantity, setNewQuantity] = React.useState('');
   const [newImg, setNewImg] = React.useState('');
   const [newDesc, setNewDesc] = React.useState('');
+
+  const [updateProduct, setUpdateProduct] = React.useState(' ');
+  const [updatePrice, setUpdatePrice] = React.useState(' ');
+  const [updateQuantity, setUpdateQuantity] = React.useState(' ');
+  const [updateImg, setUpdateImg] = React.useState(' ');
+  const [updateDesc, setUpdateDesc] = React.useState(' ');
   React.useEffect(() => {
     const runApi = async () => {
       try {
@@ -22,34 +28,52 @@ const Admin = () => {
       }
     };
     runApi();
-  }, []);
-/*   React.useEffect(() => {
-    console.log(newProduct);
-    console.log(newPrice);
-    console.log(newQuantity);
-    console.log(newImg);
-    console.log(newDesc);
-  }, [newImg, newPrice, newProduct, newQuantity, newDesc]); */
+  }, [products]);
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     try {
-      
       const response = await axios.post('http://localhost:3333/products/add', {
-        "productName": newProduct,
-        "productDescription": newDesc,
-        "productPrice": newPrice,
-        "productQuantity": newQuantity,
-        "productImage": newImg,
+        productName: newProduct,
+        productDescription: newDesc,
+        productPrice: newPrice,
+        productQuantity: newQuantity,
+        productImage: newImg,
       });
-     
 
       console.log(response);
     } catch (error) {
       console.log(error);
     }
   };
-
+  const handleDelete = async (id) => {
+    try {
+      const response = await axios.delete(
+        `http://localhost:3333/products/${id}`,
+        {},
+      );
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  const handleEdit = async (id) => {
+    try {
+      const response = await axios.patch(
+        `http://localhost:3333/products/${id}`,
+        {
+          productName: updateProduct,
+          productDescription: updateDesc,
+          productPrice: updatePrice,
+          productQuantity: updateQuantity,
+          productImage: updateImg,
+        },
+      );
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <>
       <div className="titulo-admin">
@@ -64,7 +88,6 @@ const Admin = () => {
               type="text"
               onChange={(e) => setNewProduct(e.target.value)}
               name="name"
-             
             />
           </label>
           <label>
@@ -105,7 +128,7 @@ const Admin = () => {
               name="desc"
             />
           </label>
-          <button type="submit"  class="btn btn-success">
+          <button type="submit" class="btn btn-success">
             + Adicionar Novo Produto
           </button>
         </form>
@@ -136,7 +159,8 @@ const Admin = () => {
                     type="button"
                     className="btn btn-primary w-100"
                     data-toggle="modal"
-                    data-target="#exampleModal1"
+                    data-target="#exampleModal"
+                    onClick={()=>handleEdit(product._id)}
                   >
                     <AiFillEdit />
                   </button>
@@ -144,6 +168,9 @@ const Admin = () => {
                 <td>
                   <button
                     type="button"
+                    onClick={() => {
+                      handleDelete(product._id);
+                    }}
                     class="btn btn-danger w-100"
                     data-toggle="modal"
                     data-target="#exampleModal1"
@@ -184,38 +211,44 @@ const Admin = () => {
               <div class="row">
                 <div class="col-md-10">
                   <div class="form-group">
-                    <label >Nome</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id=""
-                      placeholder="Nome"
-                    />
+                    <label>
+                      Nome
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nome"
+                        value={updateProduct}
+                        onChange={(e) => setUpdateProduct(e.target.value)}
+                      />
+                    </label>
                   </div>
                 </div>
                 <div class="col-md-2">
                   <div class="form-group">
-                    <label for="exampleFormControlSelect1">Qtd</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                    <label for="exampleFormControlSelect1">
+                      Qtd
+                      <input
+                        type="number"
+                        class="form-control"
+                        placeholder="Quantidade"
+                        onChange={(e) => setUpdateQuantity(e.target.value)}
+                      />
+                    </label>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-9">
                   <div class="form-group">
-                    <label >Categoria</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      
-                      placeholder="Categoria"
-                    />
+                    <label>
+                      Categoria
+                      <select
+                        class="form-control"
+                        id="exampleFormControlSelect1"
+                      >
+                        <option>t-shirt</option>
+                      </select>
+                    </label>
                   </div>
                 </div>
                 <div class="col-md-3">
@@ -224,19 +257,42 @@ const Admin = () => {
                     <input
                       type="number"
                       class="form-control"
-                      id=""
+                      onChange={(e) => setUpdatePrice(e.target.value)}
                       placeholder="preço"
                     />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="">imagem</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      onChange={(e) => setUpdateImg(e.target.value)}
+                      placeholder="imagem"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label>Descricao</label>
+                    <textarea
+                      class="form-control"
+                      onChange={(e) => setUpdateDesc(e.target.value)}
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="modal-footer">
-              <button type="button"  class="btn btn-dark" data-dismiss="modal">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">
                 Sair
               </button>
-              <button type="button" class="btn btn-success">
+              <button type="button"  class="btn btn-success">
                 Salvar
               </button>
             </div>
@@ -244,47 +300,7 @@ const Admin = () => {
         </div>
       </div>
 
-      <div
-        class="modal fade"
-        id="exampleModal1"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Excluir
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <h3>Tem Certeza que deseja excluir?</h3>
-            </div>
-            <div class="estilo-botao">
-              <button
-                type="button"
-                class="btn btn-lg btn-success "
-                data-dismiss="modal"
-              >
-                Não
-              </button>
-              <button type="button" class="btn btn-danger btn-lg ">
-                Sim
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </>
   );
 };
